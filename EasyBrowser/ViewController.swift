@@ -14,9 +14,11 @@ class ViewController: UIViewController, WKNavigationDelegate {
     var webView: WKWebView!
     var progressView: UIProgressView!
     
+    var initalWebsite: String?
+    
     //add a reusable safe website list
     var websites = ["apple.com", "hackingwithswift.com"]
-
+    
     override func loadView() {
         webView = WKWebView()
         webView.navigationDelegate = self
@@ -44,7 +46,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         navigationController?.isToolbarHidden = false
         
         // load a site into webView
-        if let site = URL(string: "https://" + websites[0]) {
+        if let site = URL(string: "https://" + initalWebsite!) {
             webView.load(URLRequest(url: site))
             webView.allowsBackForwardNavigationGestures = true
         }

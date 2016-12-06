@@ -12,6 +12,7 @@
 		5A3899F91DF479090015CF93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3899F71DF479090015CF93 /* Main.storyboard */; };
 		5A3899FB1DF479090015CF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3899FA1DF479090015CF93 /* Assets.xcassets */; };
 		5A3899FE1DF479090015CF93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3899FC1DF479090015CF93 /* LaunchScreen.storyboard */; };
+		5A389A061DF641620015CF93 /* WebsitePickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A389A051DF641620015CF93 /* WebsitePickerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5A3899FA1DF479090015CF93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A3899FD1DF479090015CF93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A3899FF1DF479090015CF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A389A051DF641620015CF93 /* WebsitePickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsitePickerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5A3899F31DF479090015CF93 /* AppDelegate.swift */,
 				5A3899F51DF479090015CF93 /* ViewController.swift */,
 				5A3899F71DF479090015CF93 /* Main.storyboard */,
+				5A389A051DF641620015CF93 /* WebsitePickerTableViewController.swift */,
 				5A3899FA1DF479090015CF93 /* Assets.xcassets */,
 				5A3899FC1DF479090015CF93 /* LaunchScreen.storyboard */,
 				5A3899FF1DF479090015CF93 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				5A3899F61DF479090015CF93 /* ViewController.swift in Sources */,
 				5A3899F41DF479090015CF93 /* AppDelegate.swift in Sources */,
+				5A389A061DF641620015CF93 /* WebsitePickerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
